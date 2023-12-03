@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "mentoring-py"
+version = "0.1.0"
+description = ""
+authors = ["EugeneSpiridonov <93368059+EugeneSpiridonov@users.noreply.github.com>"]
+readme = "README.md"
+packages = [{include = "mentoring_py"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+aiohttp = "^3.9.1"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
